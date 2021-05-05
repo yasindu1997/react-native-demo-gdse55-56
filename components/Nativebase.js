@@ -9,7 +9,7 @@ export default class Nativebase extends Component {
         <Header>
           <Left>
             <Button transparent>
-              <Icon name='menu' />
+              <Icon name='menu'/>
             </Button>
           </Left>
           <Body>
