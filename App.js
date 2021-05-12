@@ -14,6 +14,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import AsyncView from'./components/AsycView'
 import Fetch from './components/Fetch'
+import LifeCycle from './components/LifeCycle'
 
 const Stack = createStackNavigator();
 
@@ -22,6 +23,7 @@ export default class App extends Component{
     return(
       <NavigationContainer>
         <Stack.Navigator>
+        <Stack.Screen name="LifeCycle" component={LifeCycle} />
         <Stack.Screen name="Fetch" component={Fetch} />
         <Stack.Screen name="AsyncView" component={AsyncView} />
           <Stack.Screen name="ScreenOne" component={ScreenOne} />

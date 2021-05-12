@@ -2,8 +2,10 @@ import React, { Component } from 'react'
 import { View, Text, Image, TextInput, Button, StyleSheet, ScrollView } from 'react-native'
 
 export default class CoreComponents extends Component {
-    state={
-        customerName : '',
+    constructor(){
+        this.state={
+            customerName : '',
+        }
     }
 
     //function
